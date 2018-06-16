@@ -1,6 +1,7 @@
 package com.searoth.yelpandroidcodingquestion;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
@@ -18,21 +19,21 @@ public class JT {
 
         List<String> one = new ArrayList<>();
         one.add("green");
-        one.add("blue");
-        one.add("red");
-        one.add("purple");
+        one.add("green");
+        one.add("green");
+        one.add("green");
 
         List<String> two = new ArrayList<>();
         two.add("green");
-        two.add("blue");
-        two.add("red");
-        two.add("purple");
+        two.add("green");
+        two.add("green");
+        two.add("green");
 
         List<String> three = new ArrayList<>();
         three.add("green");
-        three.add("blue");
-        three.add("red");
-        three.add("purple");
+        three.add("green");
+        three.add("green");
+        three.add("green");
 
         mainList.add(one);
         mainList.add(two);
@@ -46,7 +47,7 @@ public class JT {
      * @param image List of Lists of Strings
      * @return alphabatized list of the most frequent colors found in all lists
      */
-    private static List<String> topColor(List<List<String>> image) {
+    public static List<String> topColor(List<List<String>> image) {
         List<String> ret = new ArrayList<>();
         HashMap<String, Integer> map = new HashMap<String, Integer>();
         int max = 1;
@@ -60,8 +61,8 @@ public class JT {
                 }else map.put(color,1);
             }
         }
+        ret = buildColorList(map, max);//build unsorted list
         if(map.size() > 1) {
-            ret = buildColorList(map, max);//build unsorted list
             ret = ret.size() > 1 ? sortListString(ret) : ret; //sort if size > 1
         }
         return ret;

@@ -6,7 +6,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
-public class JT {
+public class TopColor {
+    public static final String GREEN = "green";
+    public static final String YELL = "yellow";
+    public static final String  RED = "red";
+    public static final String  BLUE = "blue";
+    public static final String  ORANGE = "orange";
+    public static final String  PURPLE = "purple";
     /**
      * @param args
      *
@@ -18,22 +24,28 @@ public class JT {
         List<List<String>> mainList = new ArrayList<List<String>>();
 
         List<String> one = new ArrayList<>();
-        one.add("green");
-        one.add("green");
-        one.add("green");
-        one.add("green");
+        one.add(GREEN);
+        one.add(YELL);
+        one.add(RED);
+        one.add(BLUE);
+        one.add(ORANGE);
+        one.add(PURPLE);
 
         List<String> two = new ArrayList<>();
-        two.add("green");
-        two.add("green");
-        two.add("green");
-        two.add("green");
+        two.add(GREEN);
+        two.add(YELL);
+        two.add(RED);
+        two.add(BLUE);
+        two.add(ORANGE);
+        two.add(PURPLE);
 
         List<String> three = new ArrayList<>();
-        three.add("green");
-        three.add("green");
-        three.add("green");
-        three.add("green");
+        three.add(GREEN);
+        three.add(YELL);
+        three.add(RED);
+        three.add(BLUE);
+        three.add(ORANGE);
+        three.add(PURPLE);
 
         mainList.add(one);
         mainList.add(two);

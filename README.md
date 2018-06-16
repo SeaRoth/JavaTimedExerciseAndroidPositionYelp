@@ -40,7 +40,7 @@ Because green has the highest frequency of appearances
 ![Question](https://i.imgur.com/8X7OfDL.png)
 
 ### Where the magic happens
-![JSON](https://i.imgur.com/MZHMmFc.png)
+![JSON](https://i.imgur.com/9Oevzdr.png)
 
 ### Build a list given a map
 ![JSON](https://i.imgur.com/PTdQbRV.png)

@@ -49,7 +49,7 @@ Because green has the highest frequency of appearances
 ![JSON](https://i.imgur.com/IvoQjkX.png)
 
 ### OUTPUT
-![JSON](https://i.imgur.com/SenA8Zy.png)
+![JSON](https://i.imgur.com/sGTrnv3.png)
 
 ### UNIT TESTS
 ![JSON](https://i.imgur.com/Ai7dYQi.png)

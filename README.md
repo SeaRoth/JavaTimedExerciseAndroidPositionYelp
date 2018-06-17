@@ -43,7 +43,11 @@ Because green has the highest frequency of appearances
 
 ### Where the magic happens
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![JSON](https://i.imgur.com/YcSnqEN.png)
+=======
+![JSON](https://i.imgur.com/9Oevzdr.png)
+>>>>>>> fd2ecc5ca7a48c63996781fbddb6ec74ed4990b1
 =======
 ![JSON](https://i.imgur.com/9Oevzdr.png)
 >>>>>>> fd2ecc5ca7a48c63996781fbddb6ec74ed4990b1

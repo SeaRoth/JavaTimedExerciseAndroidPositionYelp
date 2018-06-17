@@ -36,21 +36,13 @@ Because every color is seen the same amount of times
 #### REASON:
 Because green has the highest frequency of appearances
 
-
+## Project images:
 
 ### Main. Object creation
 ![Question](https://i.imgur.com/8X7OfDL.png)
 
 ### Where the magic happens
-<<<<<<< HEAD
-<<<<<<< HEAD
 ![JSON](https://i.imgur.com/YcSnqEN.png)
-=======
-![JSON](https://i.imgur.com/9Oevzdr.png)
->>>>>>> fd2ecc5ca7a48c63996781fbddb6ec74ed4990b1
-=======
-![JSON](https://i.imgur.com/9Oevzdr.png)
->>>>>>> fd2ecc5ca7a48c63996781fbddb6ec74ed4990b1
 
 ### Build a list given a map
 ![JSON](https://i.imgur.com/PTdQbRV.png)
@@ -65,6 +57,6 @@ Because green has the highest frequency of appearances
 ![JSON](https://i.imgur.com/sGTrnv3.png)
 
 ### UNIT TESTS
-![JSON](https://i.imgur.com/Ai7dYQi.png)
+![JSON](https://i.imgur.com/yDKJV7C.png)
 
 

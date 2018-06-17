@@ -1,7 +1,6 @@
 package com.searoth.yelpandroidcodingquestion;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
@@ -57,10 +56,10 @@ public class TopColor {
     /**
      *
      * @param image List of Lists of Strings
-     * @return alphabatized list of the most frequent colors found in all lists
+     * @return alphabetized list of the most frequent colors found in all lists
      */
     public static List<String> topColor(List<List<String>> image) {
-        List<String> ret = new ArrayList<>();
+        List<String> ret;
         HashMap<String, Integer> map = new HashMap<String, Integer>();
         int max = 1;
 
@@ -70,10 +69,10 @@ public class TopColor {
                     int count = map.get(color)+1;
                     max = count > max ? count : max;
                     map.put(color, count);
-                }else map.put(color,1);
+                }else if (isValidColor(color))map.put(color,1);
             }
         }
-        ret = buildColorList(map, max);//build unsorted list
+        ret = buildMostSeenColorList(map, max);//build unsorted list
         if(map.size() > 1) {
             ret = ret.size() > 1 ? sortListString(ret) : ret; //sort if size > 1
         }
@@ -86,7 +85,7 @@ public class TopColor {
      * @param key frequency of color to find and add to ArrayList<String>
      * @return unsorted list of colors
      */
-    private static List<String> buildColorList(HashMap<String, Integer> map, int key){
+    private static List<String> buildMostSeenColorList(HashMap<String, Integer> map, int key){
         List<String> ret = new ArrayList<>();
         Set<String> set = map.keySet();
         for(String s : set){
@@ -99,7 +98,7 @@ public class TopColor {
     /**
      *
      * @param arr unsorted list
-     * @return sorted list using BibbleSort
+     * @return sorted list using BubbleSort
      */
     private static List<String> sortListString(List<String> arr){
         String temp;
@@ -119,7 +118,28 @@ public class TopColor {
         return arr;
     }
 
-
-
+    /**
+     *
+     * @param name color to validate
+     * @return whether it's one of our colors
+     */
+    private static boolean isValidColor(String name){
+        switch (name) {
+            case GREEN:
+                return true;
+            case BLUE:
+                return true;
+            case YELL:
+                return true;
+            case RED:
+                return true;
+            case PURPLE:
+                return true;
+            case ORANGE:
+                return true;
+            default:
+                return false;
+        }
+    }
 }
 

@@ -1,8 +1,14 @@
 # Java Coding Question for Android Developer position at Yelp
 
-Given a List<List<String>> of strings, count the occurrences of each String and then output the most repeated string(s) in a List<String>, alphabetized.
+Time limit: 15 minutes
 
-For example:
+Given a List<List<String>> of strings, count the occurrences of each String and then output the most repeated string(s) in a List<String>, alphabetized.
+    
+    Features:
+    1. Code written in Java
+    2. Testing written in Kotlin
+
+## Example 1
 
 #### INPUT:
 {
@@ -16,7 +22,7 @@ For example:
 #### REASON:
 Because every color is seen the same amount of times
 
-### OR
+## Example 2
 
 #### INPUT:
 {
@@ -36,7 +42,11 @@ Because green has the highest frequency of appearances
 ![Question](https://i.imgur.com/8X7OfDL.png)
 
 ### Where the magic happens
-![JSON](https://i.imgur.com/MZHMmFc.png)
+<<<<<<< HEAD
+![JSON](https://i.imgur.com/YcSnqEN.png)
+=======
+![JSON](https://i.imgur.com/9Oevzdr.png)
+>>>>>>> fd2ecc5ca7a48c63996781fbddb6ec74ed4990b1
 
 ### Build a list given a map
 ![JSON](https://i.imgur.com/PTdQbRV.png)
@@ -44,8 +54,11 @@ Because green has the highest frequency of appearances
 ### Build a list alphabetized
 ![JSON](https://i.imgur.com/IvoQjkX.png)
 
+### Is valid color?
+![JSON](https://i.imgur.com/cYJ1eqw.png)
+
 ### OUTPUT
-![JSON](https://i.imgur.com/SenA8Zy.png)
+![JSON](https://i.imgur.com/sGTrnv3.png)
 
 ### UNIT TESTS
 ![JSON](https://i.imgur.com/Ai7dYQi.png)

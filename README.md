@@ -4,9 +4,22 @@ Time limit: 15 minutes
 
 Given a List<List<String>> of strings, count the occurrences of each String and then output the most repeated string(s) in a List<String>, alphabetized.
     
-    Features:
-    1. Code written in Java
-    2. Testing written in Kotlin
+The algorithms are written in Java and the unit tests are written in Kotlin.
+
+There are four major functions:
+1. isValidColor(String name)
+2. sortListString(List<String> list)
+3. buildMostSeenColorList(HashMap<String, Integer> hm, int key)
+4. topColor(List<List<String>> list)
+
+## How to run
+    Using Android Studio:
+    1. Download project
+    2. Open project, navigate to TopColor.java
+    3. Right click and run    
+    
+    Using another IDE:
+    1. Find TopColor.java located in com/searoth/yelpandroidcodingquestion
 
 ## Example 1
 
